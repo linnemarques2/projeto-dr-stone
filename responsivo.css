@@ -1,0 +1,35 @@
+@media (max-width: 1023px) {
+    body {
+        background-image: linear-gradient(#F18B19, #f5ad5b, #F18B19);
+    }
+
+    .fundo-video {
+        display: none;
+    }
+
+    .cabecalho nav li a:hover {
+        background-image: linear-gradient(#688652, #AAC14C, #688652);
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px; 
+    }
+
+    .container .informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .descricao {
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .container .botao-trailer {
+        background-image: linear-gradient(#688652, #AAC14C, #688652);
+    }
+}
