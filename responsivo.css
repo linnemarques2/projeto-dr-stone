@@ -18,6 +18,9 @@
         gap: 30px; 
     }
 
+    .container .stone {
+        max-width: 38%;
+    }
 
     .container .informacoes {
         display: flex;

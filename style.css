@@ -70,13 +70,12 @@ body {
     transform: scale(1.1);
 }
 
-
 .container .stone {
     max-width: 38%;
-    /* opacity: 80%; */
 }
 
 .fundo-video {
+    background-image: linear-gradient(#F18B19, #F5C41D, #F18B19);
     position: absolute;
     z-index: -1;
     width: 100vw;
